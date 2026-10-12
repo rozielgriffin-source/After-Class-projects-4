@@ -25,6 +25,7 @@ print("AND only returns 1 for positions where both bits are 1.")
 print("OR will return 1 for positions where at least one of the bits are 1.")
 
 not_result = (~secret_code) & 0b1111
+
 xor_result = secret_code ^ access_key
 
 print("PART 3: NOT and XOR")
